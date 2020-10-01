@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A936C9482525CF9900D48CB7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936C9472525CF9900D48CB7 /* Color.swift */; };
+		A936C94E2525D28D00D48CB7 /* GadevColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936C94D2525D28D00D48CB7 /* GadevColorTests.swift */; };
 		OBJ_22 /* GadevCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* GadevCore.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
@@ -45,7 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"GadevCore::GadevCore::Product" /* GadevCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GadevCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A936C9472525CF9900D48CB7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A936C94D2525D28D00D48CB7 /* GadevColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadevColorTests.swift; sourceTree = "<group>"; };
+		"GadevCore::GadevCore::Product" /* GadevCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GadevCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"GadevCore::GadevCoreTests::Product" /* GadevCoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = GadevCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_13 /* XCTestManifests.swift */,
+				A936C94D2525D28D00D48CB7 /* GadevColorTests.swift */,
 			);
 			name = GadevCoreTests;
 			path = Tests/GadevCoreTests;
@@ -120,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* GadevCore.swift */,
+				A936C9472525CF9900D48CB7 /* Color.swift */,
 			);
 			name = GadevCore;
 			path = Sources/GadevCore;
@@ -210,6 +216,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_22 /* GadevCore.swift in Sources */,
+				A936C9482525CF9900D48CB7 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +233,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_41 /* XCTestManifests.swift in Sources */,
+				A936C94E2525D28D00D48CB7 /* GadevColorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GadevCore;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
@@ -292,6 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GadevCore;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
