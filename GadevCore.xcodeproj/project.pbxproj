@@ -54,6 +54,7 @@
 		A936C94F2525DAF200D48CB7 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		A936C9512525DB3700D48CB7 /* GadevNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadevNetworkingTests.swift; sourceTree = "<group>"; };
 		A94E4B0B2530A70B00EA4DBF /* GadevCore.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GadevCore.podspec; sourceTree = "<group>"; };
+		A94E4B0C2530AD1000EA4DBF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		"GadevCore::GadevCore::Product" /* GadevCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GadevCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"GadevCore::GadevCoreTests::Product" /* GadevCoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = GadevCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				A94E4B0C2530AD1000EA4DBF /* LICENSE */,
 				A94E4B0B2530A70B00EA4DBF /* GadevCore.podspec */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
